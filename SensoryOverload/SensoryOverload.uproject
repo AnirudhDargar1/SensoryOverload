@@ -3,6 +3,13 @@
 	"EngineAssociation": "5.0",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "SensoryOverload",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -16,8 +23,9 @@
 			"Enabled": true
 		},
 		{
-			"Name": "HoudiniEngine",
-			"Enabled": true
+			"Name": "AzSpeech",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/94ad3e51c6f443718cdb312b48742bb3"
 		}
 	]
 }

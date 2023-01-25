@@ -2979,6 +2979,18 @@
 		{
 			"Path": "$(ProjectDir)/Plugins/SerialCOM_4_UE503/Binaries/Win64/UnrealEditor-SERIALCOM.pdb",
 			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/sphinx-ue4-2a6689dac659385ca401625e319cb96c3616921d/SpeechRecognition/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/sphinx-ue4-2a6689dac659385ca401625e319cb96c3616921d/SpeechRecognition/Binaries/Win64/UnrealEditor-SpeechRecognition.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/sphinx-ue4-2a6689dac659385ca401625e319cb96c3616921d/SpeechRecognition/Binaries/Win64/UnrealEditor-SpeechRecognition.pdb",
+			"Type": "SymbolFile"
 		}
 	],
 	"RuntimeDependencies": [
@@ -23493,6 +23505,18 @@
 		{
 			"Path": "$(ProjectDir)/Plugins/SerialCOM_4_UE503/SERIALCOM.uplugin",
 			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/sphinx-ue4-2a6689dac659385ca401625e319cb96c3616921d/SpeechRecognition/SpeechRecognition.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/sphinx-ue4-2a6689dac659385ca401625e319cb96c3616921d/SpeechRecognition/ThirdParty/PocketSphinx/Libraries/x64/PocketSphinx.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/sphinx-ue4-2a6689dac659385ca401625e319cb96c3616921d/SpeechRecognition/ThirdParty/SphinxBase/Libraries/x64/SphinxBase.dll",
+			"Type": "NonUFS"
 		},
 		{
 			"Path": "$(ProjectDir)/SensoryOverload.uproject",
